@@ -12,6 +12,7 @@ int main() {
 
   cout << "Введіть друге число\n";     cin >> b;
 
+<<<<<<< HEAD
   switch(op) {
 
 <<<<<<< HEAD
@@ -33,12 +34,43 @@ int main() {
     case 4:     // code
 
                     break;
+=======
+switch(op) {
+
+    case 1:
+
+               result = a + b;
+
+               break;
+
+    case 2:
+
+               result = a - b;
+
+               break;
+
+    case 3:
+
+               result = a * b;
+
+               break;
+
+    case 4:
+
+               result = (double) a / b;
+
+               break;
+>>>>>>> vidnim
 
   }
 
   cout << "Результат = " << result;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> addition
+=======
+
+>>>>>>> vidnim
 }
