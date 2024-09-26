@@ -12,31 +12,23 @@ int main() {
 
   cout << "Введіть друге число\n";     cin >> b;
 
-switch(op) {
+  switch(op) {
 
-    case 1:
+    case 1:     // code
 
-               result = a + b;
+                    break;
 
-               break;
+    case 2:    // code
 
-    case 2:
+                    break;
 
-               result = a - b;
+    case 3:     // code
 
-               break;
+                    break;
 
-    case 3:
+    case 4:     // code
 
-               result = a * b;
-
-               break;
-
-    case 4:
-
-               result = (double) a / b;
-
-               break;
+                    break;
 
   }
 
