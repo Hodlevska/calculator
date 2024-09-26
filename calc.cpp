@@ -14,7 +14,11 @@ int main() {
 
   switch(op) {
 
+<<<<<<< HEAD
     case 1:     // code
+=======
+    case 1:      result = a + b;  break;
+>>>>>>> addition
 
                     break;
 
@@ -33,4 +37,8 @@ int main() {
   }
 
   cout << "Результат = " << result;
+<<<<<<< HEAD
+=======
+
+>>>>>>> addition
 }
