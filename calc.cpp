@@ -28,6 +28,11 @@ switch(op) {
                result = (double) a / b;
 
                break;
+  case 5:
+
+               result = pow (a,b);
+
+               break;
   }
   cout << "Результат = " << result;
 }
